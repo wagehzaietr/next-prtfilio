@@ -37,7 +37,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/wagehzaietr/wagehzaietr",
         icon: Icons.github,
 
         navbar: true,
@@ -48,26 +48,6 @@ export const DATA = {
         icon: Icons.linkedin,
 
         navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
-
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
-      email: {
-        name: "Send Email",
-        url: "#",
-        icon: Icons.email,
-
-        navbar: false,
       },
     },
   },
@@ -174,26 +154,23 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
+      title: "Neo Chat",
       href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "aug 2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Next-gen chat meets AI magic—create and launch your own smart chatbot in just minutes.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
-        "Stripe",
         "Shadcn UI",
-        "Magic UI",
+        "Ai"
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://neochat-ai.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -202,98 +179,81 @@ export const DATA = {
         "/neoChatDemo.webm",
     },
     {
-      title: "Magic UI",
+      title: "VetPet",
       href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      dates: "aug 2025 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "vetpet is a chatbot web app made with next js and ai to check pet health from images analysis or chat with ai made for my love for pet to alawys keep them in good health",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
-        "Stripe",
         "Shadcn UI",
-        "Magic UI",
+        "Ai Sdk"
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://vetpet-ai-anaysis.vercel.app/en",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/wagehzaietr/vetpet-ai-anaysis",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "",
+      video: "/vertpet.webm",
     },
     {
-      title: "llm.report",
+      title: "Luxury Fragrances",
       href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      dates: "",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Almahairi Fragrances is an elegant e-commerce platform showcasing handcrafted perfumes. Built with React vite, it features bilingual support, lazy loading for optimal performance, and SEO optimization.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "vite.js",
+        "JavaScript",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
-        "Stripe",
         "Cloudflare Workers",
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://almahairi.netlify.app",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "/mahairy.webm",
     },
     {
-      title: "Automatic Chat",
+      title: "Car Rent Damas",
       href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      dates: "March 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "a modern car rent website built with react and tailwind css and google maps api based in syria",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "vite.js",
+        "JavaScript",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Google Maps"
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://carrent-damas.netlify.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "CarRent.webm",
     },
   ],
   hackathons: [
