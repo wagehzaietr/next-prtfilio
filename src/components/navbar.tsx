@@ -13,6 +13,7 @@ import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
+
 export default function Navbar() {
   return (
     <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14">
@@ -24,6 +25,7 @@ export default function Navbar() {
               <TooltipTrigger asChild>
                 <Link
                   href={item.href}
+                  target="_blank"
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
                     "size-12"
@@ -46,6 +48,7 @@ export default function Navbar() {
               <Tooltip>
                 <TooltipTrigger asChild>
                   <Link
+                    target='_blank'
                     href={social.url}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),

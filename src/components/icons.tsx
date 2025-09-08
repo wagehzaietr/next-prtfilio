@@ -23,6 +23,7 @@ export const Icons = {
       />
     </svg>
   ),
+
   youtube: (props: IconProps) => (
     <svg
       width="32px"
